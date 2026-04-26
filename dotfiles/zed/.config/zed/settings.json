@@ -1,0 +1,73 @@
+{
+  "theme": {
+    "mode": "dark",
+    "light": "Catppuccin Frappé",
+    "dark": "Catppuccin Frappé",
+  },
+  "buffer_font_family": "Hack Nerd Font",
+  "buffer_font_size": 13,
+  "buffer_font_weight": 200,
+  "ui_font_family": "Hack Nerd Font",
+  "ui_font_size": 14,
+  "buffer_line_height": "comfortable",
+
+  "cursor_blink": true,
+  "relative_line_numbers": "disabled",
+  "scrollbar": {
+    "show": "auto",
+  },
+
+  "indent_guides": {
+    "enabled": true,
+    "coloring": "indent_aware",
+  },
+
+  "tab_size": 2,
+  "soft_wrap": "editor_width",
+  "show_whitespaces": "selection",
+
+  "toolbar": {
+    "breadcrumbs": true,
+    "quick_actions": true,
+  },
+
+  "git": {
+    "git_gutter": "tracked_files",
+  },
+
+  "terminal": {
+    "shell": {
+      "program": "/usr/bin/zsh",
+    },
+    "font_family": "Hack Nerd Font",
+    "font_size": 13,
+    "line_height": "comfortable",
+    "env": {
+      "TERM": "xterm-256color",
+    },
+  },
+
+  "file_scan_exclusions": [
+    "**/.git",
+    "**/.svn",
+    "**node_modules",
+    "**/.DS_Store",
+    "**/target",
+    "**/.cache",
+  ],
+
+  "languages": {
+    "Java": {
+      "tab_size": 4,
+    },
+    "Python": {
+      "tab_size": 4,
+    },
+    "TypeScript": {
+      "tab_size": 2,
+    },
+    "JavaScript": {
+      "tab_size": 2,
+    },
+  },
+}

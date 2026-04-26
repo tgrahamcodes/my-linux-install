@@ -1,0 +1,114 @@
+# ~/.config/eza/theme.yml
+# Catppuccin Frappé for eza
+
+filekinds:
+  normal:
+    foreground: "#c6d0f5"
+  directory:
+    foreground: "#8caaee"
+  symlink:
+    foreground: "#81c8be"
+  pipe:
+    foreground: "#e5c890"
+  block_device:
+    foreground: "#ef9f76"
+  char_device:
+    foreground: "#ef9f76"
+  socket:
+    foreground: "#f4b8e4"
+  special:
+    foreground: "#ca9ee6"
+  executable:
+    foreground: "#a6d189"
+
+perms:
+  user_read:
+    foreground: "#a6d189"
+  user_write:
+    foreground: "#e78284"
+  user_execute_file:
+    foreground: "#e5c890"
+  user_execute_other:
+    foreground: "#e5c890"
+  group_read:
+    foreground: "#a6d189"
+  group_write:
+    foreground: "#e78284"
+  group_execute:
+    foreground: "#e5c890"
+  other_read:
+    foreground: "#a6d189"
+  other_write:
+    foreground: "#e78284"
+  other_execute:
+    foreground: "#e5c890"
+  special_user_file:
+    foreground: "#ca9ee6"
+  special_other:
+    foreground: "#ca9ee6"
+  attribute:
+    foreground: "#babbf1"
+
+size:
+  number_byte:
+    foreground: "#a6d189"
+  number_kilo:
+    foreground: "#e5c890"
+  number_mega:
+    foreground: "#ef9f76"
+  number_giga:
+    foreground: "#e78284"
+  number_huge:
+    foreground: "#f4b8e4"
+  unit_byte:
+    foreground: "#a6d189"
+  unit_kilo:
+    foreground: "#e5c890"
+  unit_mega:
+    foreground: "#ef9f76"
+  unit_giga:
+    foreground: "#e78284"
+  unit_huge:
+    foreground: "#f4b8e4"
+
+users:
+  user_you:
+    foreground: "#ca9ee6"
+  user_root:
+    foreground: "#e78284"
+  user_other:
+    foreground: "#babbf1"
+  group_yours:
+    foreground: "#ca9ee6"
+  group_other:
+    foreground: "#babbf1"
+  group_root:
+    foreground: "#e78284"
+
+links:
+  normal:
+    foreground: "#81c8be"
+  multi_link_file:
+    foreground: "#e5c890"
+
+git:
+  new:
+    foreground: "#a6d189"
+  modified:
+    foreground: "#e5c890"
+  deleted:
+    foreground: "#e78284"
+  renamed:
+    foreground: "#81c8be"
+  ignored:
+    foreground: "#626880"
+  conflicted:
+    foreground: "#f4b8e4"
+
+date:
+  hour_old:
+    foreground: "#c6d0f5"
+  day_old:
+    foreground: "#babbf1"
+  older:
+    foreground: "#626880"

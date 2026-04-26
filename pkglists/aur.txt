@@ -1,0 +1,13 @@
+yay
+albert
+zed
+visual-studio-code-bin
+oh-my-posh-bin
+opensnitch
+timeshift
+stacer
+protonvpn
+proton-mail-bridge
+nerd-fonts
+chkrootkit
+maldet
